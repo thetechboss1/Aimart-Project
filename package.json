@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node server.js",
         "dev": "tsc && nodemon server.js",
-        "push": "cp ../back/TODO.md . && git add .",
+        "push": "cp ../back/TODO.md . && git add . ",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
