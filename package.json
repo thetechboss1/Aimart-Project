@@ -1,0 +1,35 @@
+{
+    "name": "aimart_api",
+    "version": "1.0.0",
+    "description": "Node API for Aimart Portal",
+    "main": "server.ts",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "tsc && nodemon server.js",
+        "push": "cp ../back/TODO.md . && git add . && git commit -m '' && git push origin api",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thetechboss1/Aimart-Project.git"
+    },
+    "keywords": [
+        "Realestate",
+        "Portal",
+        "Node",
+        "Docker",
+        "Redis",
+        "Microservices",
+        "Typecript"
+    ],
+    "author": "Saint (saintzion777@gmail.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/thetechboss1/Aimart-Project/issues"
+    },
+    "homepage": "https://github.com/thetechboss1/Aimart-Project#readme",
+    "dependencies": {
+        "@types/express": "^4.17.7",
+        "express": "^4.17.1"
+    }
+}
