@@ -32,7 +32,6 @@ var aimartApp = function () {
         console.error('// Silence is golden.');
     }
 };
-aimartApp();
 //== Server ==//
 var PORT = process.env.PORT || 3400;
 app.listen(PORT, function () { console.log("Server is listening on port " + PORT); });
