@@ -11,18 +11,16 @@
  04. Customers 
  05. Admins
  06. Add Properties
- 07. Chart / Analyt
+ 07. Profile
  08. Purchases 
  09. Commisions 
  10. Support
- 11. Profile
+ 11.  Chart / Analyt
  12. Roles
  13. Gallery
  14. Videos 
  15. referes
-
  16. Sms and Email sent (System)
-
  17. logs (For supper admin only)
 
 [03] Sub-Components
@@ -33,6 +31,7 @@
        (a) Land, (b) House
 
 [03] Actions & Routes
+
  01. Users
     * api/aimart/v1/user/add [POST] - register 
     * api/aimart/v1/user/login [POST] - login
@@ -65,6 +64,7 @@
     
 
 [04] Schemas
+
    01. Users *
    02. invices *
    03. categories *
@@ -84,15 +84,15 @@
    17. logs *
    18. commission *
    19. System sms and email sent *
-   20. marital_status
-   21. geders
+   20. marital_status *
+   21. geders *
 
    [05] File Upload (Multetr)
-   PDF, IMAGE, VIDEO, **
+   PDF, IMAGE, VIDEO, *
 
 
-   [06] Email
-
+   [06] Email (Sendgrid, Nodemailer)
+   
 
    [07] Catching (Redis)
 
@@ -109,16 +109,51 @@
 
    //=== Probs ==//
 
-   01. user
+   <!-- 01. user
        Protected Route
        File upload 
        State management
        Structures
-       Modles
-       
+       Modles -->
+
+    //== Utilites ==//  
+    01. Countries
+       - ...
+    02. States
+       - 36
+    03. Genders
+        - Male
+        - Female
+    04. Marital_Status
+        - Maried
+        - Single
+    05. User_Types 
+        - Administrator 
+        - Realtor
+        - Customer 
+
+  //== User permission Categories ==//
+    01. property
+    02. realtor
+    03. customer
+    04. admin
+    05. profile
+    06. purchase
+    07. commission
+    08. role
+    09. support
+    10. chart
+    11. gallery
+    12. log
+    13. downline
+    14. next_of_kin
+    15. referral
+    16. bank_account
+    17. user
+          
 
 
-   //== Add default country and states ==//
+   
    
      
     
