@@ -6,10 +6,10 @@
 - Bring means the feilds to come with
 
 01. User
-- ** /api/aimart/v1/user/add [POST]  - Regiter
+- ** /api/aimart/v1/user/add [POST]  - Regiter |
    Bring: (firstname*, lastname*, email*, referred_by, password*, user_type*, role*)
 
-- ** /api/aimart/v1/user/login [POST] - Login
+- ** /api/aimart/v1/user/login [POST] - Login |
   Bring: (email*, password*)
 
 - ** /api/aimart/v1/user/get [GET] - Get all users and single user (Admin only)
@@ -33,45 +33,45 @@
 * /api/aimart/v1/user/forgot-password [POST]
 
 
-[02] Gallery
-** /api/aimart/v1/gallery/add
-** /api/aimart/v1/gallery/get
-** /api/aimart/v1/gallery/edit
-** /api/aimart/v1/gallery/delete
+02 Gallery
+- ** /api/aimart/v1/gallery/add
+- ** /api/aimart/v1/gallery/get
+- ** /api/aimart/v1/gallery/edit
+- ** /api/aimart/v1/gallery/delete
 
 03. Gender
-** /api/aimart/v1/gender/add
-** /api/aimart/v1/gender/get
-** /api/aimart/v1/gender/edit
+- ** /api/aimart/v1/gender/add | 
+- ** /api/aimart/v1/gender/get | 
+- ** /api/aimart/v1/gender/edit | 
 
 04. Marital Status
-** /api/aimart/v1/marital_status/add
-** /api/aimart/v1/marital_status/get
-** /api/aimart/v1/marital_status/edit
+- ** /api/aimart/v1/marital_status/add | 
+- ** /api/aimart/v1/marital_status/get | 
+- ** /api/aimart/v1/marital_status/edit | 
 
 05. User Types (Utilities: no crud) 
-** /api/aimart/v1/user_type/add
-** /api/aimart/v1/user_type/get
-** /api/aimart/v1/user_type/edit
-** /api/aimart/v1/user_type/delete
+- ** /api/aimart/v1/user_type/add | 
+- ** /api/aimart/v1/user_type/get | 
+- ** /api/aimart/v1/user_type/edit | 
+- ** /api/aimart/v1/user_type/delete | 
 
 06. State 
-** /api/aimart/v1/state/add
-** /api/aimart/v1/state/get
-** /api/aimart/v1/state/edit
-** /api/aimart/v1/state/delete
+- ** /api/aimart/v1/state/add | 
+- ** /api/aimart/v1/state/get | 
+- ** /api/aimart/v1/state/edit | 
+- ** /api/aimart/v1/state/delete | 
 
 07. Role
-** /api/aimart/v1/role/add
-** /api/aimart/v1/role/get
-** /api/aimart/v1/role/edit
-** /api/aimart/v1/role/delete
+- ** /api/aimart/v1/role/add | 
+- ** /api/aimart/v1/role/get | 
+- ** /api/aimart/v1/role/edit | 
+- ** /api/aimart/v1/role/delete | 
 
 08. Country
-** /api/aimart/v1/country/add
-** /api/aimart/v1/country/get
-** /api/aimart/v1/country/edit
-** /api/aimart/v1/country/delete
+- ** /api/aimart/v1/country/add | 
+- ** /api/aimart/v1/country/get | 
+- ** /api/aimart/v1/country/edit | 
+- ** /api/aimart/v1/country/delete | 
 
 09. Properties
 * /api/aimart/v1/property/add
