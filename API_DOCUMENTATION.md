@@ -1,6 +1,6 @@
 ## Aimart Realtors Portal (version 1.0)
 
-## Endpoints ##
+<h3 style="color: yellow"> Endpoints <h3>
 - ** Means ready
 - Status: 200 = successful, 400 = client error, 500 = Server error
 - Bring means the feilds to come with
