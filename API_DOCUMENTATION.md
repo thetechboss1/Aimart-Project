@@ -6,34 +6,34 @@
 - Bring means the feilds to come with
 
 01. User
-** /api/aimart/v1/user/add [POST]  - Regiter
+- ** /api/aimart/v1/user/add [POST]  - Regiter
    Bring: (firstname*, lastname*, email*, referred_by, password*, user_type*, role*)
 
-** /api/aimart/v1/user/login [POST] - Login
+- ** /api/aimart/v1/user/login [POST] - Login
   Bring: (email*, password*)
 
-** /api/aimart/v1/user/get [GET] - Get all users and single user (Admin only)
+- ** /api/aimart/v1/user/get [GET] - Get all users and single user (Admin only)
     Bring: (limit, user)
 
-** /api/aimart/v1/user/edit [PUT] - Edit user info
-    Bring: (firstname*, lastname*, phone_number, address, company, photo, referred_by, id_card, gender, country, state, marital_status, date_of_birth, editUserId*)
+- ** /api/aimart/v1/user/edit [PUT] - Edit user info
+    Bring: firstname*, lastname*, phone_number, address, company, photo, referred_by, id_card, gender, country, state, marital_status, date_of_birth, editUserId*
 
-** /api/aimart/v1/user/password [PUT] - Change user password
+- ** /api/aimart/v1/user/password [PUT] - Change user password
     Bring: (limit, user)
 
-** /api/aimart/v1/user/delete/:userId [DELETE] (Admin only)
+- ** /api/aimart/v1/user/delete/:userId [DELETE] (Admin only)
     Bring: (userId*) 
 
-** /api/aimart/v1/user/activate/:activationToken [GET]
+- ** /api/aimart/v1/user/activate/:activationToken [GET]
     Bring: (activationToken*) 
 
-** /api/aimart/v1/user/profile [GET]
+- ** /api/aimart/v1/user/profile [GET]
      Bring: (token*) 
 
 * /api/aimart/v1/user/forgot-password [POST]
 
 
-02. Gallery
+[02] Gallery
 ** /api/aimart/v1/gallery/add
 ** /api/aimart/v1/gallery/get
 ** /api/aimart/v1/gallery/edit
