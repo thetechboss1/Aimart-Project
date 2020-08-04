@@ -10,13 +10,13 @@
    Bring: (firstname*, lastname*, email*, referred_by, password*, user_type*, role*)
 
 - ** /api/aimart/v1/user/login [POST] - Login |
-  Bring: (email*, password*)
+  <p>Bring: (email*, password*)</p>
 
 - ** /api/aimart/v1/user/get [GET] - Get all users and single user (Admin only)
-    Bring: (limit, user)
+    <p>Bring: (limit, user)</p>
 
 - ** /api/aimart/v1/user/edit [PUT] - Edit user info
-    Bring: firstname*, lastname*, phone_number, address, company, photo, referred_by, id_card, gender, country, state, marital_status, date_of_birth, editUserId*
+   <p> Bring: firstname*, lastname*, phone_number, address, company, photo, referred_by, id_card, gender, country, state, marital_status, date_of_birth, editUserId*</p>
 
 - ** /api/aimart/v1/user/password [PUT] - Change user password
     Bring: (limit, user)
