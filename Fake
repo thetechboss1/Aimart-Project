@@ -1,0 +1,4 @@
+Get all properties: https://aimart-api.herokuapp.com/api/aimart/v1/property/get
+Get single property: https://aimart-api.herokuapp.com/api/aimart/v1/property/get?id=5faea0b71fda8b00171e33d4
+For single property page on the dashboard...:  http://app.aimartrealtors.com/app/properties/view/5f796e4e0f2eb2001704cd08?isBuyNow=yes
+User comes with property id:  http://app.aimartrealtors.com/login?pid=5f796e4e0f2eb2001704cd08
